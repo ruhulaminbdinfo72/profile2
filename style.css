@@ -1,0 +1,102 @@
+*{margin:0%;
+    padding: 0%;}
+    
+    .container{
+        overflow: hidden;
+        background: #281d5a;
+        padding: 70px;
+    }
+    
+    
+    .IconImg {
+        width: 330px;
+        float: left;
+        position: relative;
+        margin-left: 150px;
+    }
+    
+     
+    
+    .profileTitle {
+        width: 50%;
+        float: right;
+        color: white;
+    }
+    
+    .Title h1 {
+        font-size: 87px;
+        font-family: auto;
+        font-weight: 900;
+    }
+    
+    .desc h3 {
+        font-size: 37px;
+        font-family: initial;
+        padding-top: 50px;
+        position: relative;
+    }
+    
+    .desc h3:after {
+        display: block;
+        content: "";
+        width: 61%;
+        border: 2px solid white;
+        border-radius: 100%;
+        margin-top: 15px;
+    }
+    
+    .Title {
+        width: 480px;
+    }
+    
+    .Email {
+        font-size: 30px;
+        font-weight: 600;
+        font-family: auto;
+        padding-top: 50px;
+    }
+    
+    .Email i {
+        margin-right: 10;
+        color: #d5c2df;
+        padding: 20px 0px;
+    }
+    .IconImg img {
+        width: 100%;
+        border-radius: 100%;
+        border: 10px solid white;
+    }
+    .icon {
+        width: 208px;
+        text-align: center;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-93px);
+        padding-top: 30;
+    }
+    
+    .icon a {
+        font-size: 20px;
+        display: block;
+        float: left;
+        height: 30px;
+        width: 30px;
+        display: grid;
+        place-items: center;
+        text-decoration: none;
+        color:   #ffff;
+        background: #ffff;
+        border: 1px solid #252525;
+        border-radius: 100%;
+        padding: 5;
+        margin-right: 10px;
+        transition: 0.3s;
+    }
+
+    .icon a:first-child {background:#3b5998}
+    .icon a:nth-child(2) {background:linear-gradient(#e62466,hsl(353, 79%, 48%))}
+    .icon a:nth-child(3) {background:#0088cc}
+    .icon a:last-child {background:#4eca5a}
+
+    .icon a:hover{background: white;
+    color: #252525;}
